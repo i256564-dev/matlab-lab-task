@@ -1,0 +1,11 @@
+% New MATLAB Script
+
+n= input('Enter num:);
+rev =0;
+while n> 0
+dig = mod(n,10);
+rev = rev*10+dig;
+n=floor(n/10);
+end
+disp(rev)
+end
